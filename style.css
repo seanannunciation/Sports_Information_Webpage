@@ -1,0 +1,108 @@
+.nav1 ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0;
+    width:100%;
+    height:50px
+    font-size:20px;
+    text-align:center;
+    font-family: 'Righteous', cursive;
+    background-color:#677077;
+}
+
+.nav1 li{
+    padding-top:15px;
+    padding-bottom:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:35px;
+    display:inline-block;
+    text-align:center;
+}
+
+.nav1 li a {
+    color:white;
+    text-decoration:none;
+}
+
+.nav1 li:hover{
+    background-color:black;
+}
+
+
+
+#first{
+    height:500px;
+    background: url(Images/bolt.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+
+/*
+
+#first .info{
+    height:500px;
+    
+
+}
+*/
+
+#first .info p{
+    text-align:center;
+    padding:300px 10px 10px 10px;
+    font-size:50px;
+    color:white;
+    font-family: 'Satisfy', cursive;
+
+}
+
+#boxes{
+    height:300px;
+    background-color:black;
+}
+
+#boxes .sport
+{
+    width:50%;
+    float:left;
+    height:300px;
+    text-align:center;
+    display:inline-block;
+
+}
+
+#boxes .sport .right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+.sport i {
+    border: solid #eb1717;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+
+#boxes .sport h3{
+    padding:100px 40px 10px 20px;
+    color:red;
+    text-align:center;
+    font-size:30px;
+    font-family:'Josefin Sans', sans-serif;
+
+}
+
+footer{
+    height:50px;
+    width:100%;
+    text-align: center;
+    background-color: #677077;
+    color:white;
+}
+
+footer h3{
+    padding-top:15px;
+    font-family: 'Merriweather', serif;
+}
+
